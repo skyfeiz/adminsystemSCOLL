@@ -1,0 +1,11 @@
+{
+	"status":0,
+	"data":[
+		{"title":"角色管理","class":"check_tabf"},
+		{"title":"站点管理","class":""},
+		{"title":"栏目管理","class":""},
+		{"title":"内容管理","class":""},
+		{"title":"访问数据","class":""},
+		{"title":"审核管理","class":""}
+	]
+}

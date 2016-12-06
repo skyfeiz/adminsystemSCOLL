@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台管理系统</title>
+	<link rel="stylesheet" href="css/common.css">
+	<script src="lib/jquery-1.11.2.min.js"></script>
+	<script src="js/index.js"></script>
+	<script>
+		$(function(){
+			new system.SySIndex();
+		})
+	</script>
+</head>
+<body>
+	<div class="zbody w1200-1600" onselectstart="return false">
+		<div class="header clearfix">
+			<a href="javascript:;" class="a_logo fl"><img src="img/logo.png" width=150 height=100 alt="logo" id="imgLogo"></a>
+			<ul class="headertab fl">
+			    
+			</ul>
+		</div>
+		<div class="main clearfix">
+			<div class="sidebar fl">
+			</div>
+			<div class="content fl">
+				<!-- tab-nav -->
+				<div class="iftitle-box clearfix">
+					<ul class="iftitle-list fl">
+					
+					</ul>
+					<span class="closeall fl">&times;</span>
+				</div>
+				<!-- iframe盒子 -->
+				<div class="iframe-box">
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- 右键菜单栏 -->
+	<ul class="mright">
+		<li class="silent">菜单</li>
+		<li class="m-item">刷新</li>
+		<li class="m-item">关闭</li>
+		<li class="m-item">关闭其他</li>
+	</ul>
+</body>
+</html>

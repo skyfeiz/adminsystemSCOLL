@@ -1,0 +1,203 @@
+body, dd, h1, h2, h3, h4, h5, h6, p, form{
+	margin:0;
+}
+ol, ul, dl{
+	margin:0; 
+	padding:0;
+	list-style: none;
+}
+body{
+	font-size: 14px;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+	font-family: 'Microsoft yahei','微软雅黑',Tahoma,Verdana,Arial,sans-serif;
+}
+html,body{
+	height: 100%;
+}
+img
+{
+	vertical-align: top;
+    border: none;
+}
+iframe{
+	border: none;
+}
+button,input,select,textarea{
+	outline: none;
+}
+textarea{
+	resize: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+
+/* --------------- 主体部分 ---------------*/
+.zbody{
+	min-height: 600px;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	cursor: default;
+}
+.w1200-1600{
+	min-width: 1200px;
+	max-width: 1600px;
+	width: 100%;
+}
+/* --------------- 头部 ---------------*/
+
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #eee;
+	position: relative;
+	z-index: 2;
+}
+.a_logo{
+	display: block;
+	text-align: center;
+}
+.headertab{
+	padding-top: 58px;
+	cursor: default;
+}
+.headertab li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	padding: 0 5px;
+	border: 1px solid #999;
+	margin-left: 2px;
+}
+.headertab .check_tabf {
+	background-color: #0066b3;
+	color: #fff;
+}
+/* --------------- main 部分 ---------------*/
+
+.main{
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+}
+
+/* --------------- sidebar 部分 ---------------*/
+
+.sidebar{
+	width: 160px;
+	height: 100%;
+	background: skyblue;
+}
+.sidebar ul{
+	padding-left: 10px;
+	cursor: pointer;
+}
+.sidebar li{
+	line-height: 30px;
+}
+.sidebar .checked{
+	background: #fff;
+}
+
+/* --------------- content 部分 ---------------*/
+
+.content{
+	height: 100%;
+	margin-left:20px;
+}
+.iftitle-list li{
+	float: left;
+	max-width: 100px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #999;
+	margin-right: 5px;
+	position: relative;
+	white-space:nowrap;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.iftitle-list .list-active{
+	background-color: #666;
+}
+.close{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 16px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 18px;
+	font-style: normal;
+	color: #333;
+	cursor: default;
+	background-color: #666;
+}
+.closeall{
+	width: 20px;
+	height: 20px;
+	background-color: #666;
+	margin-top: 6px;
+	font-size: 20px;
+	line-height: 16px;
+	text-align: center;
+}
+
+.iframe-box{
+	position: relative;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.f-pressent{
+	display: block;
+}
+
+/* 模拟滚动条 */
+
+
+/* ---------------右键菜单栏 部分 ---------------*/
+.mright{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 5px;
+	background-color: #fff;
+	display: none;
+}
+.mright li{
+	line-height: 30px;
+	padding: 0 5px;
+	text-align: center;
+	cursor: default;
+}
+.mright .silent{
+	font-size: 12px;
+	color: #999;
+}
+.mright .m-item:hover{
+	background-color: skyblue;
+	color: #fff;
+}
